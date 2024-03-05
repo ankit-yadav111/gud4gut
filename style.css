@@ -122,7 +122,7 @@ html::-webkit-scrollbar-thumb{
     margin-bottom: 2rem;
     line-height: 7rem;
     color: var(--black);
-    text-shadow: var(--box-shadow);
+    /* text-shadow: var(--box-shadow); */
 }
 .home .homeContent p{
     font-size: 1.8rem;
@@ -170,10 +170,10 @@ section{
     border-radius: 3rem;
     margin-right: 3rem;
 }
-.product .product-row .img img{
+/* .product .product-row .img img{
     height: 100%;
     width: 100%;
-}
+} */
 .product .product-row .img img:hover{
     transform: scale(1.1);
 }
@@ -408,21 +408,6 @@ section{
 /* thanks for watching my video  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .swiper-pagination-bullet{
     background-color: var(--black);
 }
@@ -481,4 +466,37 @@ section{
     html{
         font-size: 50%;
     }
+}
+
+.client-review {
+    height: 110px; /* Set a fixed height for the boxes */
+    overflow: auto; /* Hide overflowing content */
+    padding-top: 8px;
+  }
+
+.product-img {
+    /* height: 200px; */
+    padding: 10px;
+    height: 300px;
+    width: auto;
+    max-width: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.blog-img {
+    object-fit: cover;
+    height: auto;
+    max-height:600px ;
+    width: 400px;
+}
+
+.blog-content {
+    height: 500px;
+    overflow: auto;
+    margin: 15px;
+}
+
+.product-title{
+    font-weight: bold;
 }
